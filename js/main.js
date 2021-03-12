@@ -446,14 +446,14 @@ element4 = 0.3;
 element5 = 0.3;
 element6 = 0.3;
 
-fieldvalue = "Fnplus";
+fieldvalue = "as8";
 gravity = 0;
 duration = 0.1;
 resolution = 0.1;
 speed = 0.1;
 radius = 0.3;
 
-var message = new shape(W / 2, H / 2 + 50, "Fnplus");
+var message = new shape(W / 2, H / 2 + 50, "as8");
 
 message.getValue();
 
