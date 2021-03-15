@@ -915,6 +915,12 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
 	-moz-flex-wrap: wrap;
 }
 
+@media screen and (max-width: 552px){
+	.work-single-flex {
+		margin-top: 50px;
+	}
+}
+
 .work-single-flex .col-half {
 	width: 50%;
 	position: relative;
@@ -931,12 +937,19 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
 }
 
 .work-single-flex .work-desc {
-	padding: 7em;
+	margin-top: 20px;
+	padding: 10%;
+}
+
+@media screen and (max-width: 900px) {
+	.work-single-flex .work-desc {
+		padding: 5%;
+	}
 }
 
 @media screen and (max-width: 768px) {
 	.work-single-flex .work-desc {
-		padding: 1.5em;
+		padding: 10%;
 		background: #fff;
 		margin-left: -5em;
 	}
@@ -2267,6 +2280,16 @@ iframe {
 @media only screen and (max-width: 768px) {
 	.about-team-section {
 		margin-top: 16em;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.about-team-section {
+		margin-top: 35em;
+	}
+
+	.work-single-flex .work-img {
+		height: 140%;
 	}
 }
 
