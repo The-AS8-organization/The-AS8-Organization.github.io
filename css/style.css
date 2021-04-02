@@ -1849,12 +1849,12 @@ canvas {
 	color: #000;
 }
 
-.medium {
-	background: #029843;
+.discord {
+	background: #333;
 }
 
-.medium:hover {
-	color: #029843;
+.discord:hover {
+	color: #333;
 }
 
 .linkedin {
@@ -1863,6 +1863,14 @@ canvas {
 
 .linkedin:hover {
 	color: #007bb5;
+}
+
+.youtube {
+	background: #d41e1e;
+}
+
+.youtube:hover {
+	color: #d41e1e;
 }
 
 @media screen and (max-width: 768px) {
