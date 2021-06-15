@@ -937,13 +937,15 @@ header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-bra
 }
 
 .work-single-flex .work-desc {
-	margin-top: 20px;
-	padding: 10%;
+	margin-top: 40px;
+	padding: 5%;
 }
 
 @media screen and (max-width: 900px) {
 	.work-single-flex .work-desc {
 		padding: 5%;
+		margin-top: 60px;
+		margin-top: 20px;
 	}
 }
 
@@ -3396,5 +3398,24 @@ clearfix, .m-timeline li {
 	from {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
+	}
+}
+
+
+#about-text {
+	font-size: 16px;
+}
+
+#core-team-title {
+	font-size: 50px;
+}
+
+@media screen  and (max-width: 900px) {
+	#about-text {
+		font-size: 15px;
+	}	
+
+	#core-team-title {
+		font-size: 40px;
 	}
 }
