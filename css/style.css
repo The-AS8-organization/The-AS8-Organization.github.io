@@ -169,10 +169,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #colorlib-main-nav .colorlib-nav-toggle {
 	position: absolute;
-	top: 5px;
+	top: 10px;
 	right: 40px;
 	padding: 20px;
-	height: 44px;
+	height: 40px;
 	width: 44px;
 	background: rgba(0, 0, 0, 0.05);
 	line-height: 0;
@@ -3162,8 +3162,6 @@ clearfix, .m-timeline li {
 	padding: 1em;
 }
 
-.m-timeline .text-canvas:before {}
-
 .m-timeline .text-canvas:after {
 	background: #138844;
 	display: block;
@@ -3417,5 +3415,9 @@ clearfix, .m-timeline li {
 
 	#core-team-title {
 		font-size: 40px;
+	}
+
+	.method-text {
+		font-size: 14px;
 	}
 }
